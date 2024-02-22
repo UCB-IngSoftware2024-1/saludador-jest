@@ -2,8 +2,8 @@
   "scripts": {
     "test": "jest --watch",
     "test-once": "jest",
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
+    "start": "parcel kbot.html",
+    "build": "parcel build kbot.html --public-url ./",
     "cypress": "cypress open",
     "cypress-once": "cypress run"
   },
