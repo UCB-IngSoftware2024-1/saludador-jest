@@ -1,0 +1,34 @@
+===
+Funcionalidades saludador:
+1. Saludar con un "hola"	Ejm: hola
+2. Mejorar la visualizacion de saludo   Ejm: hola (en negrillas)
+3. Saludar por nombre "Hola <nombre>"	 Ejm: hola Pedro (input nombre)
+4. Saludar tomando en cuenta el genero "Hola Sra <nombre>, si es que la persona es de genero femenino	Ejm: hola Sra Maria (input nombre, input genero)
+5. Saludar tomando en cuenta la edad "Hola Sr <nombre>, si es que la persona a mayor a 30	
+6. Saludar tomando en cuenta la hora : Buenos dias, buenas tardes, ...	
+7. Saludar segun el idioma (ES, EN)	
+
+====================
+Saludador dirigido por pruebas de unidad
+1.- Saludar con un "hola"	
+    1.1 Muestra saludo 'hola'
+2. Mejorar la visualizacion de saludo   
+    2.1 Muestra saludo 'hola' (en negrillas)
+3. Saludar por nombre "Hola <nombre>"	 
+    3.1 Muestra saludo por nombre 'hola Pedro'
+    3.2 Si no se introduce nombre 'Por favor indica tu nombre'
+4. Saludar tomando en cuenta el genero "Hola Sra <nombre>, si es que la persona es de genero femenino	Ejm: hola Sra Maria (input nombre, input genero)
+    4.1 Si introduce genero femenino "hola Sra nombre"
+    4.2 Si introduce genero masculino "hola Sr nombre"
+    4.3 Si introduce un genero invalido "Por favor, introduce un genero valido: opciones: femenino / masculino"
+5.- Saludar tomando en cuenta la edad "Hola Sr <nombre>, si es que la persona a mayor a 30	
+    5.1 Si introduce edad > 30: hola Sr nombre
+    5.2 Si introduce edad < 30: hola nombre
+    5.3 Si introduce edad invalida: Por favor introduce un numero correcto para la edad
+6. Saludar tomando en cuenta la hora : Buenos dias, buenas tardes, ...	
+    6.1 Si es hora mañana
+    6.2 Si es hora tarde
+    6.3 Si es hora noche
+    
+
+
